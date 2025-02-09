@@ -1,0 +1,31 @@
+{
+  "name": "remember",
+  "version": "1.0.0",
+  "description": "CLI to remember things",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "remember": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Idkingz/remember.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Idkingz/remember/issues"
+  },
+  "homepage": "https://github.com/Idkingz/remember#readme",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "dotenv": "^16.4.7",
+    "inquirer": "^12.4.1",
+    "mongoose": "^8.10.0",
+    "ora": "^8.2.0"
+  }
+}
