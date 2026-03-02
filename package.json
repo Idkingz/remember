@@ -1,0 +1,23 @@
+{
+  "name": "remember",
+  "version": "1.0.0",
+  "description": "CLI tool to save and retrieve content using keywords",
+  "bin": {
+    "remember": "./bin/remember.js"
+  },
+  "files": [
+    "bin/"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.0"
+  },
+  "scripts": {
+    "test": "vitest run"
+  }
+}
