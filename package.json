@@ -1,5 +1,5 @@
 {
-  "name": "remember",
+  "name": "@root-traum/remember",
   "version": "1.0.0",
   "description": "CLI tool to save and retrieve content using keywords",
   "bin": {
